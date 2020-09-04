@@ -1,5 +1,5 @@
 Gemfile.lock
 logs/screenshots
-logs/*.jason
+logs/*.json
 logs/*.html
 
