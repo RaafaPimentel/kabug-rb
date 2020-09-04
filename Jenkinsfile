@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'raafapimentel/ruby'
+            image 'ruby'
         }
     }
     
