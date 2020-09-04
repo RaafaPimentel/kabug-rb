@@ -2,4 +2,5 @@ Gemfile.lock
 logs/screenshots
 logs/*.json
 logs/*.html
+logs/*.DS_Store
 
