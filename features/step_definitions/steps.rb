@@ -59,7 +59,7 @@ Dado("que acesso a página logada") do
   visit "http://kabug.qaninja.io/index.php?route=account/login"
 end
 
-Quando("eu submeto as minhas credenciais {string} e {string}") do |email, senha|
+Quando("eu submeto as minhas credenciais {string} e {string}") do |email, password|
   fill_in "email", with: email
   fill_in "password", with: password
   find("form input[type=submit]").click
