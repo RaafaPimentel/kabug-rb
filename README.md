@@ -20,3 +20,9 @@ BDD web test automation lab with Cucumber, Capybara, Docker and Jenkins pipeline
 ```bash
 gem install bundler
 bundle install
+
+## Run locally
+bundle exec cucumber
+
+## Run CI profile
+bundle exec cucumber -p ci
