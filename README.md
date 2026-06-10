@@ -1,5 +1,5 @@
 # kabug-rb
-Repository of the project Kabug with Cucumber, Capybara and Ruby
+BDD web test automation lab with Cucumber, Capybara, Docker and Jenkins pipeline.
 
 ## how to execute the project.
 
