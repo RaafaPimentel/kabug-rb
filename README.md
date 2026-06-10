@@ -1,30 +1,26 @@
 # kabug-rb
-Repository do Projeto kabug com Cucumber, Capybara e Ruby
+Repositório of the project Kabug with Cucumber, Capybara and Ruby
 
-# kabug-rb
-Repositório do projeto Kabug com Cucumber, Capybara e Ruby
+## how to execute the project.
 
+* You must have ruby installed with version (Version 2.5 or higher)
 
-##Como executar o projeto.
-
-* Importante ter o ruby instalado versão (Versão 2.5 ou superior)
-
-### Instalar o bundler
+### install bundler
 `
 gem install bundler
 `
 
-### Instalar as dependencias do Ruby (projeto)
+### install dependencies of Ruby (project)
 `
 bundle install
 `
 
-### Executar localmente (minha máquina)
+### run locally
 `
 bundle exec cucumber
 `
 
-### Executar mo servidor de CI (gerando reports Json)
+### execute the CI server(generating Json reports )
 `
 bundle exec cucumber -p ci
 `
