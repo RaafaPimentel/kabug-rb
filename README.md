@@ -1,26 +1,22 @@
 # kabug-rb
+
 BDD web test automation lab with Cucumber, Capybara, Docker and Jenkins pipeline.
 
-## how to execute the project.
+## What it demonstrates
 
-* You must have ruby installed with version (Version 2.5 or higher)
+- BDD scenarios with Gherkin.
+- Web automation using Ruby, Cucumber and Capybara.
+- Docker-based execution.
+- Jenkins pipeline structure.
+- JSON report generation for CI execution.
 
-### install bundler
-`
+## Requirements
+
+- Ruby 2.5 or higher.
+- Bundler.
+
+## Install dependencies
+
+```bash
 gem install bundler
-`
-
-### install dependencies of Ruby (project)
-`
 bundle install
-`
-
-### run locally
-`
-bundle exec cucumber
-`
-
-### execute the CI server(generating Json reports )
-`
-bundle exec cucumber -p ci
-`
